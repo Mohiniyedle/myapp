@@ -2,7 +2,7 @@ import unittest
 import xmlrunner
 import app
 import re
-import MutableMapping
+from collections.abc import MutableMapping
 
 class TestHello(unittest.TestCase):
 
